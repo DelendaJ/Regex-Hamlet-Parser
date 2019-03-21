@@ -1,6 +1,9 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import static org.junit.Assert.*;
 
 public class HamletParserTest {
@@ -15,14 +18,19 @@ public class HamletParserTest {
 
     @Test
     public void testChangeHamletToLeon() {
+       //Given
+
+        //When
+
+
+        //Then
     }
 
-    @Test
-    public void testChangeHoratioToTariq() {
-    }
 
     @Test
     public void testFindHoratio() {
+        HamletParser hamletParser = new HamletParser();
+        hamletParser.changeAndReplace("Horatio", "Tariq");
     }
 
     @Test
